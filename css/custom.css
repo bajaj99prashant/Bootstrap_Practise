@@ -1,0 +1,14 @@
+html,body{
+    height: 100%;
+}
+
+#main-cover{
+    background-image: url("../images/1_ee9Ji2ToUxeYfj3YUQ1xsA.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
