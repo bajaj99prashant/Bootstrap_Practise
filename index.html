@@ -13,49 +13,53 @@
     
     <!-- Custom CSS-->
     <link rel="stylesheet" href="css/custom.css" type="text/css">
-
-    <title>Portfolio</title>
+    
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Portfolio | Prashant Bajaj</title>
   </head>
   <body>
    
    <!-- navbar begins -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-        <a class="navbar-brand" href="#">Portfolio</a>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">portfolio</a>
+        <a class="fa fa-github align-center text-light btn btn-outline-success" style="margin-top: 5px;" role="button" href="#"> github</a>   
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portfolio-links">
            <span class="navbar-toggler-icon"></span>
         </button>
+        
         <div class="collapse navbar-collapse justify-content-end" id="portfolio-links">
            <ul class="navbar-nav">
-              <li class="nav-item">
-               <a class="fa fa-github align-center text-light btn btn-outline-success" style="margin-top: 5px;" role="button" href="#"> github</a>
-              </li>
               <li class="nav-item">
                 <a class="nav-link active" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#">Resume</a>
               </li> 
            </ul>
         </div> 
     </nav>
     
     <!--  wrapper section -->
-    <div id="main-cover" class="justify-content-around">
-        <div id="content">
+    <div id="main-cover" class="row">
+    
+       <div id="content-left" class="col-sm-6 offset-1">
+           <div class="container text-center">
+               <h1 class="display-1 text-white">Prashant <span class="text-success">Bajaj</span></h1>
+               <p class="text-white">I am a student of computer science with keen interest in <span class="lead text-info font-weight-bold">front-end web development</span>. If proper oppurtunities are provided to me with good work environment, I can develop some awesome websites.</p>
+               <h2 class="lead text-light font-weight-bold">skills<span><a class="btn btn-outline-success btn-sm btn-circle text-whites font-weight-bold" role="button">&darr;</a></span></h2>
+           </div>   
+       </div>
+       
+        <div id="content-right align-center" class="col-sm-3">
             <div class="container" style="width: 400px;">
-               <div class="card bg-dark text-white" style="opacity: 0.7;">
-                    <div class="card-body">
-                        <h2 class="display-4">Prashant Bajaj</h2>
-                        <hr style=" width: 100px;">
-                        <p>I am the student of computer science with keen interest in web development. If proper oppurtunities are provided to me with good work experience, I can develop some great master pieces.</p>
-                        <h6 class="display-4">Skills</h6>
-                        <hr style="width: 100px;">
-                        <p style="font-size: 38px;"><abbr title="HTML"><span class="fa fa-html5 mr-sm-4 mb-0"></span></abbr><abbr title="CSS"><span class="fa fa-css3 mb-0 mr-sm-4"></span></abbr>Bootstrap-4</p>
-                    </div>
+               <div>
+                   <img src="images/667443676-170667a.jpg" class="rounded-circle bg-dark" style="height: 400px; width: 450px; background: transparent"> 
                </div>
             </div> 
         </div>
     </div>
+    
+    <!--  skills  section  -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
