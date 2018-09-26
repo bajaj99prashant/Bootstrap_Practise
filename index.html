@@ -22,7 +22,7 @@
    <!-- navbar begins -->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
         <a class="navbar-brand" href="#">portfolio</a>
-        <a class="fa fa-github align-center text-light btn btn-outline-success" style="margin-top: 5px;" role="button" href="#"> github</a>   
+        <a class="fa fa-github align-center text-light btn btn-outline-success" style="margin-top: 5px;" role="button" href="https://github.com/bajaj99prashant" target="_blank"> github</a>   
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portfolio-links">
            <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,6 +34,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
               </li> 
            </ul>
         </div> 
@@ -42,40 +45,63 @@
     <!--  wrapper section -->
     <div id="main-cover" class="row">
     
-       <div id="content-left" class="col-sm-6 offset-1">
-           <div class="container text-center">
+       <div id="content-left d-flex justify-content-center" class="col-sm-6">
+           <div class="container text-center" style="margin-bottom: 20px;">
                <h1 class="display-1 text-white">Prashant <span class="text-success">Bajaj</span></h1>
                <p class="text-white">I am a student of computer science with keen interest in <span class="lead text-info font-weight-bold">front-end web development</span>. If proper oppurtunities are provided to me with good work environment, I can develop some awesome websites.</p>
-               <h2 class="lead text-light font-weight-bold">skills<span><a class="btn btn-outline-success btn-sm btn-circle text-whites font-weight-bold" role="button">&darr;</a></span></h2>
+               <h2 class="lead text-light font-weight-bold">skills<span><a class="btn btn-outline-success btn-sm btn-circle text-whites font-weight-bold" href="#skills" role="button">&darr;</a></span></h2>
            </div>   
        </div>
        
-        <div id="content-right align-center" class="col-sm-3">
-            <div class="container" style="width: 400px;">
+        <div id="content-right" class="col-sm-5 offset-sm-1 align-center">
+            <div class="container" style="width: 400px; margin-bottom: 20px;">
                <div>
-                   <img src="images/667443676-170667a.jpg" class="rounded-circle bg-dark" style="height: 400px; width: 400px; background: transparent"> 
+                   <img src="images/IMG_20180925_235145.jpg" class="rounded-circle bg-dark" style="height: auto; width: 100%; background: transparent"> 
                </div>
             </div> 
         </div>
     </div>
     
     <!--  skills  section  -->
-    <div id="skills bg-dark" style="width: 100%;">
-        <div class="container row text-center bg-dark text-white">
-            <div class="col-sm-3 offset-sm-1">
-                <i class="fa fa-html5 text-danger" style="font-size: 90px;"></i>
-                <h4>HTML</h4>
-            </div>
-            <div class="col-sm-3 offset-sm-1">
-                <i class="fa fa-css3 text-info" style="font-size: 90px;"></i>
-                <h4>CSS</h4>
-            </div>
-            <div class="col-sm-3 offset-sm-1">
-                <img src="images/bootstrap-4-logo-png-transparent.png" style="height: 90px;">
-                <h4>BOOTSTRAP</h4>
+    <div id="skills" class="container-fluid px-0 bg-dark" style="width: 100%;">
+        <div class="container-fluid">
+           <div class="row text-center text-light bg-dark">
+                <div class="col-sm-4 p-4">
+                    <i class="fa fa-html5 text-danger" style="font-size: 90px; margin-top: 20px;"></i>
+                    <h4>HTML</h4>
+                </div>
+                <div class="col-sm-4 p-4">
+                    <i class="fa fa-css3 text-info" style="font-size: 90px; margin-top: 20px;"></i>
+                    <h4>CSS</h4>
+                </div>
+                <div class="col-sm-4 p-4">
+                    <img src="images/bootstrap-4-logo-png-transparent.png" style="height: 90px; margin-top: 20px;">
+                    <h4 style="margin-bottom: 20px;">BOOTSTRAP</h4>
+                </div>
             </div>
         </div>
     </div>
+    
+    <!--  contact section  -->
+    <div class="container-fluid m-4" id="contact">
+        <div class="container text-center mt-4">
+            <h1 class="font-weight-normal">Let's Get In Touch!</h1>
+            <hr class="w-25 border border-danger">
+            <p class="lead">Ready to start your next project with me? That's great! Give me a call or send me an email and I will get back to you as soon as possible!</p>
+        </div>
+        <div class="container d-flex justify-content-around">
+            <div class="text-center">
+                <span class="fa fa-phone" style="font-size: 50px;"></span>
+                <h6>993-593-7650</h6>
+                <h6>844-817-2344</h6>
+            </div>
+            <div class="text-center px-4">
+                <span class="fa fa-envelope" style="font-size: 50px;"></span>
+                <h6 class="text-danger font-weight-normal">prashantbajaj99@gmail.com</h6>
+            </div>
+        </div>
+    </div>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
