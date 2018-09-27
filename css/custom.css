@@ -1,6 +1,12 @@
 html,body{
     height: 100%;
     overflow-x: hidden;
+    padding: inherit;
+    
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 #main-cover{
@@ -10,9 +16,14 @@ html,body{
     background-size: cover;
     height: 100%;
     overflow: hidden;
-    align-items: center;
-    display: flex;
+    
     width: auto;
+}
+
+#image-me{
+    height: auto;
+    width: 340px;;
+    background: transparent;
 }
 
 .btn-circle{
@@ -22,8 +33,41 @@ html,body{
     margin-left: 6px;
 }
 
+#content-left{
+    display: flex;
+    align-items: center;
+}
+
+#content-right{
+    display: flex;
+    align-items: center;
+}
+
 @media only screen and (max-width: 768px){
     #main-cover{
         height: auto;
+        flex-wrap: wrap;
+    }
+    
+    #content-left{
+        width: 100%;
+        float: left;
+        height: auto;
+        margin: auto;
+    }
+    
+    #content-left>div>h1{
+        font-size: 50px;
+    }
+    
+    #content-right{
+        width: 100%;
+        float: left;
+        height: auto;
+        margin: auto;
+    }
+    
+    #image-me{
+        width: 250px;
     }
 }
