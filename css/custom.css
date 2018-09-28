@@ -45,7 +45,8 @@ html{
 
 @media only screen and (max-width: 768px){
     #main-cover{
-        height: auto;
+        height: 100%;
+        overflow-y: auto;
         flex-wrap: wrap;
     }
     
